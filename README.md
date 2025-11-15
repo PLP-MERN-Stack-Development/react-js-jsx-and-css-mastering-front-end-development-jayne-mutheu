@@ -1,70 +1,80 @@
-# React.js and Tailwind CSS Assignment
+# 🚀 React + Vite + Tailwind + React Router Project
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern React application built with **Vite**, **Tailwind CSS**, and **React Router**, demonstrating component architecture, state management with hooks, and API integration.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 📦 Tech Stack
 
-## Getting Started
+- ⚛️ [React 19](https://react.dev/) – Component-based UI library
+- ⚡ [Vite](https://vitejs.dev/) – Fast build tool and dev server
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
+- 🌐 [React Router v7](https://reactrouter.com/) – Client-side routing
+- 🔗 [Axios / Fetch](https://axios-http.com/) – API requests
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+## 🛠️ Setup
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+### Prerequisites
 
-## Requirements
-
-- Node.js (v18 or higher)
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
 
-## Project Structure
+### Installation
 
-```
+1. Clone the repository:
+   ```bash
+   git clone
+   cd repo-name
+   Install dependencies:
+   ```
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
+Open your browser at:
+
+arduino
+Copy code
+http://localhost:5173
+📂 Project Structure
+graphql
+Copy code
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+│── components/ # Reusable UI components (Button, Card, Navbar, Footer, etc.)
+│── pages/ # Page components (Home, About, Contact, etc.)
+│── context/ # Context providers (e.g., ThemeContext)
+│── hooks/ # Custom hooks (useLocalStorage, etc.)
+│── App.jsx # Main app entry
+│── main.jsx # React DOM render + BrowserRouter
+│── index.css # Tailwind base styles
+✨ Features
+✅ Reusable Components (Button, Card, Navbar, Footer)
 
-## Submission
+✅ Task Manager (add, complete, delete, filter tasks)
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+✅ State Management with useState, useEffect, useContext
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+✅ Custom Hook (useLocalStorage) for persistence
 
-## Resources
+✅ API Integration (fetch data from JSONPlaceholder)
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+✅ Loading & Error Handling
+
+✅ Responsive Design with Tailwind
+
+🚀 Deployment
+
+[Github Pages](https://github.com/MuigaiKiongo/react-js-jsx-and-css-mastering-front-end-development-Muigai-Kiongo/tree/main/TaskManager)
+
+📸 Screenshots
+
+![alt text](<Screenshot at 2025-10-19 18-15-25.png>)
+
+![alt text](<Screenshot at 2025-10-19 18-15-40.png>)

@@ -71,7 +71,6 @@ src/
 
 🚀 Deployment
 
-[Github Pages](https://github.com/MuigaiKiongo/react-js-jsx-and-css-mastering-front-end-development-Muigai-Kiongo/tree/main/TaskManager)
 
 📸 Screenshots
 
